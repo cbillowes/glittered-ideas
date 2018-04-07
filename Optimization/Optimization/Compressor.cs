@@ -13,11 +13,11 @@ namespace Optimization
             if (string.IsNullOrEmpty(input)) return string.Empty;
             if (input.Length == 1) return $"{input}1";
 
-            var output = Defalte(input);
+            var output = Deflate(input);
             return output;
         }
 
-        private static string Defalte(string input)
+        private static string Deflate(string input)
         {
             var total = 0;
             var output = new StringBuilder();
